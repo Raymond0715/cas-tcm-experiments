@@ -1,0 +1,28 @@
+{
+  "utc": "20261111T031931.892353Z",
+  "args": {
+    "mode": "full",
+    "case": null,
+    "config": null,
+    "variant": "canonical",
+    "rounds": 15,
+    "repeat": 50
+  },
+  "device": "NVIDIA GeForce RTX 4070",
+  "python": "3.11.4 (main, Jul 19 2023, 14:05:46) [GCC 13.1.1 20230714]",
+  "torch": "2.5.0+cu124",
+  "triton": "3.5.0",
+  "cuda_build": "12.4",
+  "sources": {
+    "kernels.py": "c4af48f3a58e94a6ac935361c817f24ab5d56b0740f4fbbd195a85f748f6fd98",
+    "model.py": "3b25679780ecca2cdac737f301c46a28f0ff42cba3c2f50fcf14add3a0dac839",
+    "cases.json": "c0708c1c902f53514b56f430ef867e16a56bc9bbd36cb4dbf7ea654eeb83dade",
+    "configs.json": "4098e8db3d39c3887858b2991f0c5653c774763b6544265e181e6b49b7d152af"
+  },
+  "seed": 20261112,
+  "tolerance": {
+    "atol": 2e-05,
+    "rtol": 0.0002
+  },
+  "driver_version": "615.78.08"
+}

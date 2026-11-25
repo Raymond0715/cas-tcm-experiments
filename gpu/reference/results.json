@@ -1,0 +1,3896 @@
+[
+  {
+    "case": {
+      "id": "dense_s14_ci8",
+      "family": "dense",
+      "n": 1,
+      "ci": 8,
+      "co": 64,
+      "h": 16,
+      "w": 16,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        5.5295997858047485,
+        5.509120225906372,
+        5.505920052528381,
+        5.508480072021484,
+        5.509120225906372,
+        5.505279898643494,
+        5.488640069961548,
+        5.509120225906372,
+        5.488640069961548,
+        5.504000186920166,
+        5.488640069961548,
+        5.504000186920166,
+        5.505279898643494,
+        5.468159914016724,
+        5.488640069961548
+      ],
+      "reuse": [
+        3.850240111351013,
+        3.829759955406189,
+        3.829759955406189,
+        3.829759955406189,
+        3.829759955406189,
+        3.8092800974845886,
+        3.829759955406189,
+        3.829759955406189,
+        3.829759955406189,
+        3.8284799456596375,
+        3.829759955406189,
+        3.8092800974845886,
+        3.8233599066734314,
+        3.829759955406189,
+        3.8092800974845886
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 5.505279898643494,
+        "q25_us": 5.488640069961548,
+        "q75_us": 5.508800148963928,
+        "min_us": 5.468159914016724,
+        "max_us": 5.5295997858047485
+      },
+      "reuse": {
+        "median_us": 3.829759955406189,
+        "q25_us": 3.8259199261665344,
+        "q75_us": 3.829759955406189,
+        "min_us": 3.8092800974845886,
+        "max_us": 3.850240111351013
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 274112,
+        "output_tcm": 1664,
+        "total_tcm": 275776,
+        "useful_macs": 903168,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 903168
+      },
+      "reuse": {
+        "input_tcm": 255488,
+        "output_tcm": 1664,
+        "total_tcm": 257152,
+        "useful_macs": 903168,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 473088
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s14_ci8",
+      "family": "dense",
+      "n": 1,
+      "ci": 8,
+      "co": 64,
+      "h": 16,
+      "w": 16,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        5.038080215454102,
+        4.997119903564453,
+        5.010560154914856,
+        5.017600059509277,
+        5.016319751739502,
+        5.012480020523071,
+        5.013759732246399,
+        5.017600059509277,
+        5.097600221633911,
+        5.013759732246399,
+        4.997119903564453,
+        4.997119903564453,
+        4.997119903564453,
+        4.997119903564453,
+        5.017600059509277
+      ],
+      "reuse": [
+        2.9491201043128967,
+        2.9068800806999207,
+        2.908160090446472,
+        2.9068800806999207,
+        2.9023998975753784,
+        2.969599962234497,
+        2.921600043773651,
+        2.9075199365615845,
+        2.9023998975753784,
+        2.908160090446472,
+        2.908160090446472,
+        2.908160090446472,
+        2.947840094566345,
+        2.887679934501648,
+        2.908160090446472
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 5.013759732246399,
+        "q25_us": 4.997119903564453,
+        "q75_us": 5.017600059509277,
+        "min_us": 4.997119903564453,
+        "max_us": 5.097600221633911
+      },
+      "reuse": {
+        "median_us": 2.908160090446472,
+        "q25_us": 2.9068800806999207,
+        "q75_us": 2.9148800671100616,
+        "min_us": 2.887679934501648,
+        "max_us": 2.969599962234497
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 263168,
+        "output_tcm": 832,
+        "total_tcm": 264000,
+        "useful_macs": 903168,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 903168
+      },
+      "reuse": {
+        "input_tcm": 250432,
+        "output_tcm": 832,
+        "total_tcm": 251264,
+        "useful_macs": 903168,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 473088
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s14_ci32",
+      "family": "dense",
+      "n": 1,
+      "ci": 32,
+      "co": 64,
+      "h": 16,
+      "w": 16,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.430511474609375e-06,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.430511474609375e-06,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        19.456000328063965,
+        19.415040016174316,
+        19.43552017211914,
+        19.415040016174316,
+        19.374079704284668,
+        19.415040016174316,
+        19.409279823303223,
+        19.38688039779663,
+        19.394559860229492,
+        19.43552017211914,
+        19.374079704284668,
+        19.394559860229492,
+        19.45215940475464,
+        19.38815951347351,
+        19.394559860229492
+      ],
+      "reuse": [
+        12.349439859390259,
+        12.36799955368042,
+        12.369920015335083,
+        12.349439859390259,
+        12.349439859390259,
+        12.349439859390259,
+        12.34495997428894,
+        12.369920015335083,
+        12.390400171279907,
+        12.369920015335083,
+        12.328959703445435,
+        12.369920015335083,
+        12.369920015335083,
+        12.349439859390259,
+        12.328959703445435
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 19.409279823303223,
+        "q25_us": 19.3913596868515,
+        "q75_us": 19.42528009414673,
+        "min_us": 19.374079704284668,
+        "max_us": 19.456000328063965
+      },
+      "reuse": {
+        "median_us": 12.349439859390259,
+        "q25_us": 12.349439859390259,
+        "q75_us": 12.369920015335083,
+        "min_us": 12.328959703445435,
+        "max_us": 12.390400171279907
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1125056,
+        "output_tcm": 1664,
+        "total_tcm": 1126720,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 3612672
+      },
+      "reuse": {
+        "input_tcm": 1057280,
+        "output_tcm": 1664,
+        "total_tcm": 1058944,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 1892352
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s14_ci32",
+      "family": "dense",
+      "n": 1,
+      "ci": 32,
+      "co": 64,
+      "h": 16,
+      "w": 16,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.430511474609375e-06,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.430511474609375e-06,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        17.466880083084106,
+        17.404799461364746,
+        17.42848038673401,
+        17.408000230789185,
+        17.408000230789185,
+        17.448960542678833,
+        17.38752007484436,
+        17.38752007484436,
+        17.38752007484436,
+        17.38752007484436,
+        17.38752007484436,
+        17.408000230789185,
+        17.40671992301941,
+        17.42848038673401,
+        17.38752007484436
+      ],
+      "reuse": [
+        8.888319730758667,
+        8.845440149307251,
+        8.847360014915466,
+        8.847360014915466,
+        8.861439824104309,
+        8.908799886703491,
+        8.847360014915466,
+        8.844159841537476,
+        8.86080026626587,
+        8.863999843597412,
+        8.865919709205627,
+        8.847360014915466,
+        8.84223997592926,
+        8.847360014915466,
+        8.844799995422363
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 17.40671992301941,
+        "q25_us": 17.38752007484436,
+        "q75_us": 17.418240308761597,
+        "min_us": 17.38752007484436,
+        "max_us": 17.466880083084106
+      },
+      "reuse": {
+        "median_us": 8.847360014915466,
+        "q25_us": 8.846400082111359,
+        "q75_us": 8.86271983385086,
+        "min_us": 8.84223997592926,
+        "max_us": 8.908799886703491
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1081088,
+        "output_tcm": 832,
+        "total_tcm": 1081920,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 3612672
+      },
+      "reuse": {
+        "input_tcm": 1036864,
+        "output_tcm": 832,
+        "total_tcm": 1037696,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 1892352
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s28_ci8",
+      "family": "dense",
+      "n": 1,
+      "ci": 8,
+      "co": 64,
+      "h": 30,
+      "w": 30,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        16.78912043571472,
+        16.7903995513916,
+        16.814080476760864,
+        16.746879816055298,
+        16.732159852981567,
+        16.895999908447266,
+        16.732159852981567,
+        16.732159852981567,
+        16.732159852981567,
+        16.732159852981567,
+        16.79360032081604,
+        16.828160285949707,
+        16.814080476760864,
+        16.79360032081604,
+        16.773120164871216
+      ],
+      "reuse": [
+        10.096640586853027,
+        10.035200119018555,
+        10.054399967193604,
+        10.113919973373413,
+        10.035200119018555,
+        10.076160430908203,
+        10.076160430908203,
+        10.076160430908203,
+        10.076160430908203,
+        10.055680274963379,
+        10.055680274963379,
+        10.055680274963379,
+        10.072319507598877,
+        10.035200119018555,
+        10.049920082092285
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 16.78912043571472,
+        "q25_us": 16.732159852981567,
+        "q75_us": 16.803840398788452,
+        "min_us": 16.732159852981567,
+        "max_us": 16.895999908447266
+      },
+      "reuse": {
+        "median_us": 10.055680274963379,
+        "q25_us": 10.052160024642944,
+        "q75_us": 10.076160430908203,
+        "min_us": 10.035200119018555,
+        "max_us": 10.113919973373413
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 52,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1101632,
+        "output_tcm": 6720,
+        "total_tcm": 1108352,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 3612672
+      },
+      "reuse": {
+        "input_tcm": 1027712,
+        "output_tcm": 6720,
+        "total_tcm": 1034432,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 1806336
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s28_ci8",
+      "family": "dense",
+      "n": 1,
+      "ci": 8,
+      "co": 64,
+      "h": 30,
+      "w": 30,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        7.905279994010925,
+        7.905279994010925,
+        7.8995198011398315,
+        7.904000282287598,
+        7.898880243301392,
+        7.884799838066101,
+        7.884799838066101,
+        7.884799838066101,
+        7.884799838066101,
+        7.904639840126038,
+        7.884799838066101,
+        7.905279994010925,
+        7.884799838066101,
+        7.864320278167725,
+        7.902079820632935
+      ],
+      "reuse": [
+        6.0416001081466675,
+        6.04095995426178,
+        6.05567991733551,
+        6.0416001081466675,
+        6.039680242538452,
+        6.05567991733551,
+        6.060799956321716,
+        6.04095995426178,
+        6.0416001081466675,
+        6.021119952201843,
+        6.062080264091492,
+        6.055039763450623,
+        6.021119952201843,
+        6.040319800376892,
+        6.0416001081466675
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 7.898880243301392,
+        "q25_us": 7.884799838066101,
+        "q75_us": 7.904320061206818,
+        "min_us": 7.864320278167725,
+        "max_us": 7.905279994010925
+      },
+      "reuse": {
+        "median_us": 6.0416001081466675,
+        "q25_us": 6.040639877319336,
+        "q75_us": 6.055359840393066,
+        "min_us": 6.021119952201843,
+        "max_us": 6.062080264091492
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 64,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1058848,
+        "output_tcm": 3360,
+        "total_tcm": 1062208,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 3612672
+      },
+      "reuse": {
+        "input_tcm": 1017184,
+        "output_tcm": 3360,
+        "total_tcm": 1020544,
+        "useful_macs": 3612672,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 1806336
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s28_ci32",
+      "family": "dense",
+      "n": 1,
+      "ci": 32,
+      "co": 64,
+      "h": 30,
+      "w": 30,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-06,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-06,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        65.92512130737305,
+        65.65311908721924,
+        65.8841609954834,
+        69.81632232666016,
+        74.42431926727295,
+        65.7587194442749,
+        65.86368083953857,
+        68.83327960968018,
+        65.76128005981445,
+        70.00063896179199,
+        72.4787187576294,
+        73.21599960327148,
+        71.94623947143555,
+        70.36416053771973,
+        75.0387191772461
+      ],
+      "reuse": [
+        40.857601165771484,
+        40.89856147766113,
+        40.83712100982666,
+        40.857601165771484,
+        40.857601165771484,
+        40.857601165771484,
+        40.87808132171631,
+        40.87808132171631,
+        40.87808132171631,
+        40.87808132171631,
+        40.857601165771484,
+        40.87808132171631,
+        40.857601165771484,
+        40.89856147766113,
+        41.10335826873779
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 69.81632232666016,
+        "q25_us": 65.87392091751099,
+        "q75_us": 72.21247911453247,
+        "min_us": 65.65311908721924,
+        "max_us": 75.0387191772461
+      },
+      "reuse": {
+        "median_us": 40.87808132171631,
+        "q25_us": 40.857601165771484,
+        "q75_us": 40.87808132171631,
+        "min_us": 40.83712100982666,
+        "max_us": 41.10335826873779
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 52,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 4520768,
+        "output_tcm": 6720,
+        "total_tcm": 4527488,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 14450688
+      },
+      "reuse": {
+        "input_tcm": 4253312,
+        "output_tcm": 6720,
+        "total_tcm": 4260032,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 7225344
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s28_ci32",
+      "family": "dense",
+      "n": 1,
+      "ci": 32,
+      "co": 64,
+      "h": 30,
+      "w": 30,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-06,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-06,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        24.878079891204834,
+        24.944639205932617,
+        24.842240810394287,
+        24.842240810394287,
+        24.86272096633911,
+        24.842240810394287,
+        24.821760654449463,
+        24.821760654449463,
+        24.856960773468018,
+        24.821760654449463,
+        24.842240810394287,
+        24.86272096633911,
+        24.842240810394287,
+        24.86272096633911,
+        24.83839988708496
+      ],
+      "reuse": [
+        18.3296000957489,
+        18.350080251693726,
+        18.288639783859253,
+        18.3296000957489,
+        18.303359746932983,
+        18.288639783859253,
+        18.287359476089478,
+        18.30399990081787,
+        18.3296000957489,
+        18.3296000957489,
+        18.288639783859253,
+        18.309119939804077,
+        18.26815962791443,
+        18.349440097808838,
+        18.288639783859253
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 24.842240810394287,
+        "q25_us": 24.840320348739624,
+        "q75_us": 24.86272096633911,
+        "min_us": 24.821760654449463,
+        "max_us": 24.944639205932617
+      },
+      "reuse": {
+        "median_us": 18.30399990081787,
+        "q25_us": 18.288639783859253,
+        "q75_us": 18.3296000957489,
+        "min_us": 18.26815962791443,
+        "max_us": 18.350080251693726
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 64,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 4348960,
+        "output_tcm": 3360,
+        "total_tcm": 4352320,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 14450688
+      },
+      "reuse": {
+        "input_tcm": 4210528,
+        "output_tcm": 3360,
+        "total_tcm": 4213888,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 7225344
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s56_ci8",
+      "family": "dense",
+      "n": 1,
+      "ci": 8,
+      "co": 64,
+      "h": 58,
+      "w": 58,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        50.64703941345215,
+        42.80320167541504,
+        42.782721519470215,
+        47.34975814819336,
+        46.978559494018555,
+        42.84416198730469,
+        48.02559852600098,
+        47.267842292785645,
+        42.84416198730469,
+        48.82431983947754,
+        42.86464214324951,
+        47.42591857910156,
+        42.82368183135986,
+        47.00160026550293,
+        48.78335952758789
+      ],
+      "reuse": [
+        26.684799194335938,
+        26.664960384368896,
+        26.64128065109253,
+        26.68544054031372,
+        26.664960384368896,
+        26.64191961288452,
+        26.624000072479248,
+        26.664960384368896,
+        26.637439727783203,
+        26.664960384368896,
+        26.664960384368896,
+        26.664319038391113,
+        26.644480228424072,
+        26.664960384368896,
+        26.664319038391113
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 47.00160026550293,
+        "q25_us": 42.84416198730469,
+        "q75_us": 47.72575855255127,
+        "min_us": 42.782721519470215,
+        "max_us": 50.64703941345215
+      },
+      "reuse": {
+        "median_us": 26.664960384368896,
+        "q25_us": 26.643199920654297,
+        "q75_us": 26.664960384368896,
+        "min_us": 26.624000072479248,
+        "max_us": 26.68544054031372
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 71,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 4363744,
+        "output_tcm": 23520,
+        "total_tcm": 4387264,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 14450688
+      },
+      "reuse": {
+        "input_tcm": 4100320,
+        "output_tcm": 23520,
+        "total_tcm": 4123840,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 7225344
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s56_ci8",
+      "family": "dense",
+      "n": 1,
+      "ci": 8,
+      "co": 64,
+      "h": 58,
+      "w": 58,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 4.76837158203125e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        26.890239715576172,
+        26.846721172332764,
+        26.88704013824463,
+        26.844160556793213,
+        26.869759559631348,
+        26.910719871520996,
+        26.86527967453003,
+        26.869759559631348,
+        26.846721172332764,
+        26.846721172332764,
+        26.84607982635498,
+        26.8287992477417,
+        26.864640712738037,
+        26.849279403686523,
+        26.910719871520996
+      ],
+      "reuse": [
+        17.100800275802612,
+        17.121280431747437,
+        17.100800275802612,
+        17.059199810028076,
+        17.11359977722168,
+        17.133439779281616,
+        17.121280431747437,
+        17.14176058769226,
+        17.14176058769226,
+        17.080320119857788,
+        17.121280431747437,
+        17.16223955154419,
+        17.14176058769226,
+        17.16223955154419,
+        17.100800275802612
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 26.864640712738037,
+        "q25_us": 26.846721172332764,
+        "q75_us": 26.87839984893799,
+        "min_us": 26.8287992477417,
+        "max_us": 26.910719871520996
+      },
+      "reuse": {
+        "median_us": 17.121280431747437,
+        "q25_us": 17.100800275802612,
+        "q75_us": 17.14176058769226,
+        "min_us": 17.059199810028076,
+        "max_us": 17.16223955154419
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 52,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 4235392,
+        "output_tcm": 13440,
+        "total_tcm": 4248832,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 14450688
+      },
+      "reuse": {
+        "input_tcm": 4068736,
+        "output_tcm": 13440,
+        "total_tcm": 4082176,
+        "useful_macs": 14450688,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 7225344
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s56_ci32",
+      "family": "dense",
+      "n": 1,
+      "ci": 32,
+      "co": 64,
+      "h": 58,
+      "w": 58,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.9073486328125e-06,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.9073486328125e-06,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        192.3481559753418,
+        177.84832000732422,
+        189.09055709838867,
+        177.8278350830078,
+        195.78624725341797,
+        191.2588882446289,
+        166.2566375732422,
+        172.09344863891602,
+        166.66624069213867,
+        172.2969627380371,
+        171.29472732543945,
+        172.99455642700195,
+        157.20447540283203,
+        164.67967987060547,
+        167.73120880126953
+      ],
+      "reuse": [
+        121.99935913085938,
+        129.80223655700684,
+        131.4406394958496,
+        124.27264213562012,
+        129.08543586730957,
+        126.27967834472656,
+        110.39999961853027,
+        105.34912109375,
+        108.85120391845703,
+        111.82080268859863,
+        101.0483169555664,
+        111.16543769836426,
+        111.75935745239258,
+        113.66399765014648,
+        117.10080146789551
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 172.2969627380371,
+        "q25_us": 167.1987247467041,
+        "q75_us": 183.46943855285645,
+        "min_us": 157.20447540283203,
+        "max_us": 195.78624725341797
+      },
+      "reuse": {
+        "median_us": 113.66399765014648,
+        "q25_us": 110.78271865844727,
+        "q75_us": 125.27616024017334,
+        "min_us": 101.0483169555664,
+        "max_us": 131.4406394958496
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 56,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 17911264,
+        "output_tcm": 23520,
+        "total_tcm": 17934784,
+        "useful_macs": 57802752,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 57802752
+      },
+      "reuse": {
+        "input_tcm": 16970464,
+        "output_tcm": 23520,
+        "total_tcm": 16993984,
+        "useful_macs": 57802752,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 28901376
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "dense_s56_ci32",
+      "family": "dense",
+      "n": 1,
+      "ci": 32,
+      "co": 64,
+      "h": 58,
+      "w": 58,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "predeclared valid 3x3 core matrix"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.9073486328125e-06,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.9073486328125e-06,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        87.46944427490234,
+        87.40863800048828,
+        90.86976051330566,
+        102.84416198730469,
+        97.60767936706543,
+        87.32671737670898,
+        91.11552238464355,
+        87.69536018371582,
+        97.52575874328613,
+        87.66847610473633,
+        101.76511764526367,
+        93.92127990722656,
+        100.79999923706055,
+        87.59296417236328,
+        91.50464057922363
+      ],
+      "reuse": [
+        58.53184223175049,
+        57.747201919555664,
+        54.59968090057373,
+        54.53120231628418,
+        54.49728012084961,
+        59.1871976852417,
+        54.68160152435303,
+        63.583359718322754,
+        54.64064121246338,
+        54.722561836242676,
+        54.698238372802734,
+        54.68160152435303,
+        60.989441871643066,
+        54.68160152435303,
+        54.70208168029785
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 91.11552238464355,
+        "q25_us": 87.6307201385498,
+        "q75_us": 97.56671905517578,
+        "min_us": 87.32671737670898,
+        "max_us": 102.84416198730469
+      },
+      "reuse": {
+        "median_us": 54.698238372802734,
+        "q25_us": 54.6611213684082,
+        "q75_us": 58.139522075653076,
+        "min_us": 54.49728012084961,
+        "max_us": 63.583359718322754
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 56,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 17395840,
+        "output_tcm": 13440,
+        "total_tcm": 17409280,
+        "useful_macs": 57802752,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 57802752
+      },
+      "reuse": {
+        "input_tcm": 16842112,
+        "output_tcm": 13440,
+        "total_tcm": 16855552,
+        "useful_macs": 57802752,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 28901376
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b1_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 16,
+      "co": 16,
+      "h": 112,
+      "w": 112,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "groups": 16,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 1 depthwise"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        9.228799939155579,
+        9.195520281791687,
+        9.215999841690063,
+        9.195520281791687,
+        9.175040125846863,
+        9.194239974021912,
+        9.175040125846863,
+        9.195520281791687,
+        9.195520281791687,
+        9.175040125846863,
+        9.195520281791687,
+        9.175040125846863,
+        9.175040125846863,
+        9.175040125846863,
+        9.175040125846863
+      ],
+      "reuse": [
+        5.591040253639221,
+        5.631999969482422,
+        5.591040253639221,
+        5.591040253639221,
+        5.591040253639221,
+        5.693439841270447,
+        5.591040253639221,
+        5.570560097694397,
+        5.586559772491455,
+        5.591040253639221,
+        5.570560097694397,
+        5.591040253639221,
+        5.605120062828064,
+        5.591040253639221,
+        5.591040253639221
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 9.194239974021912,
+        "q25_us": 9.175040125846863,
+        "q75_us": 9.195520281791687,
+        "min_us": 9.175040125846863,
+        "max_us": 9.228799939155579
+      },
+      "reuse": {
+        "median_us": 5.591040253639221,
+        "q25_us": 5.591040253639221,
+        "q75_us": 5.591040253639221,
+        "min_us": 5.570560097694397,
+        "max_us": 5.693439841270447
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 445104,
+        "output_tcm": 25312,
+        "total_tcm": 470416,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 7139584
+      },
+      "reuse": {
+        "input_tcm": 260064,
+        "output_tcm": 25312,
+        "total_tcm": 285376,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 3548416
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b1_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 16,
+      "co": 16,
+      "h": 112,
+      "w": 112,
+      "kernel": 3,
+      "stride": 1,
+      "padding": 1,
+      "groups": 16,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 1 depthwise"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        4.1574400663375854,
+        4.075520038604736,
+        4.095999896526337,
+        4.075520038604736,
+        4.075520038604736,
+        4.095999896526337,
+        4.0883201360702515,
+        4.094719886779785,
+        4.075520038604736,
+        4.321280121803284,
+        4.1094401478767395,
+        4.095360040664673,
+        4.095999896526337,
+        4.095999896526337,
+        4.075520038604736
+      ],
+      "reuse": [
+        2.969599962234497,
+        2.9491201043128967,
+        2.9491201043128967,
+        2.969599962234497,
+        2.969599962234497,
+        2.9491201043128967,
+        2.9689601063728333,
+        2.9491201043128967,
+        2.9491201043128967,
+        2.9491201043128967,
+        2.9862400889396667,
+        2.9286399483680725,
+        2.9491201043128967,
+        2.9491201043128967,
+        2.9689601063728333
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 4.095360040664673,
+        "q25_us": 4.075520038604736,
+        "q75_us": 4.095999896526337,
+        "min_us": 4.075520038604736,
+        "max_us": 4.321280121803284
+      },
+      "reuse": {
+        "median_us": 2.9491201043128967,
+        "q25_us": 2.9491201043128967,
+        "q75_us": 2.969280034303665,
+        "min_us": 2.9286399483680725,
+        "max_us": 2.9862400889396667
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 371296,
+        "output_tcm": 13552,
+        "total_tcm": 384848,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 7139584
+      },
+      "reuse": {
+        "input_tcm": 205072,
+        "output_tcm": 13552,
+        "total_tcm": 218624,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 3548416
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b2_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 64,
+      "co": 64,
+      "h": 112,
+      "w": 112,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "groups": 64,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 2 depthwise"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        10.588159561157227,
+        10.60863971710205,
+        10.567679405212402,
+        10.6496000289917,
+        10.567679405212402,
+        10.588159561157227,
+        10.567679405212402,
+        10.585600137710571,
+        10.566400289535522,
+        10.567679405212402,
+        10.56704044342041,
+        10.567679405212402,
+        10.583679676055908,
+        10.60863971710205,
+        10.567679405212402
+      ],
+      "reuse": [
+        8.744959831237793,
+        8.723840117454529,
+        8.744959831237793,
+        8.785920143127441,
+        8.71936023235321,
+        8.762239813804626,
+        8.724480271339417,
+        8.722559809684753,
+        8.704000115394592,
+        8.704000115394592,
+        8.704000115394592,
+        8.704000115394592,
+        8.698880076408386,
+        8.765439987182617,
+        8.704000115394592
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 10.567679405212402,
+        "q25_us": 10.567679405212402,
+        "q75_us": 10.588159561157227,
+        "min_us": 10.566400289535522,
+        "max_us": 10.6496000289917
+      },
+      "reuse": {
+        "median_us": 8.722559809684753,
+        "q25_us": 8.704000115394592,
+        "q75_us": 8.744959831237793,
+        "min_us": 8.698880076408386,
+        "max_us": 8.785920143127441
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1783328,
+        "output_tcm": 27104,
+        "total_tcm": 1810432,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 7139584
+      },
+      "reuse": {
+        "input_tcm": 1334432,
+        "output_tcm": 27104,
+        "total_tcm": 1361536,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 5344000
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b2_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 64,
+      "co": 64,
+      "h": 112,
+      "w": 112,
+      "kernel": 3,
+      "stride": 2,
+      "padding": 1,
+      "groups": 64,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 2 depthwise"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 8.940696716308594e-08,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        4.75136011838913,
+        4.72896009683609,
+        4.689919948577881,
+        4.727680087089539,
+        4.710400104522705,
+        4.710400104522705,
+        4.710400104522705,
+        4.710400104522705,
+        4.689919948577881,
+        4.710400104522705,
+        4.705919921398163,
+        4.709759950637817,
+        4.730879962444305,
+        4.710400104522705,
+        4.708479940891266
+      ],
+      "reuse": [
+        4.3007999658584595,
+        4.25599992275238,
+        4.273279905319214,
+        4.259839951992035,
+        4.280320107936859,
+        4.280320107936859,
+        4.258559942245483,
+        4.259839951992035,
+        4.259839951992035,
+        4.239360094070435,
+        4.239360094070435,
+        4.273920059204102,
+        4.2553600668907166,
+        4.259839951992035,
+        4.239360094070435
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 4.710400104522705,
+        "q25_us": 4.709119945764542,
+        "q75_us": 4.719040095806122,
+        "min_us": 4.689919948577881,
+        "max_us": 4.75136011838913
+      },
+      "reuse": {
+        "median_us": 4.259839951992035,
+        "q25_us": 4.2556799948215485,
+        "q75_us": 4.273599982261658,
+        "min_us": 4.239360094070435,
+        "max_us": 4.3007999658584595
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 43,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1784000,
+        "output_tcm": 17024,
+        "total_tcm": 1801024,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 7139584
+      },
+      "reuse": {
+        "input_tcm": 1335104,
+        "output_tcm": 17024,
+        "total_tcm": 1352128,
+        "useful_macs": 1784896,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 5344000
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b4_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 72,
+      "co": 72,
+      "h": 56,
+      "w": 56,
+      "kernel": 5,
+      "stride": 2,
+      "padding": 2,
+      "groups": 72,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 4 depthwise"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        10.214400291442871,
+        10.1363205909729,
+        10.158079862594604,
+        10.158079862594604,
+        10.158079862594604,
+        10.17151951789856,
+        10.13375997543335,
+        10.13375997543335,
+        10.13759970664978,
+        10.158079862594604,
+        10.158079862594604,
+        10.135040283203125,
+        10.156799554824829,
+        10.178560018539429,
+        10.096640586853027
+      ],
+      "reuse": [
+        7.167999744415283,
+        7.1244800090789795,
+        7.147520184516907,
+        7.147520184516907,
+        7.188479900360107,
+        7.147520184516907,
+        7.145599722862244,
+        7.106559872627258,
+        7.1270400285720825,
+        7.1270400285720825,
+        7.141119837760925,
+        7.226240038871765,
+        7.143039703369141,
+        7.147520184516907,
+        7.105280160903931
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 10.158079862594604,
+        "q25_us": 10.135680437088013,
+        "q75_us": 10.158079862594604,
+        "min_us": 10.096640586853027,
+        "max_us": 10.214400291442871
+      },
+      "reuse": {
+        "median_us": 7.145599722862244,
+        "q25_us": 7.1270400285720825,
+        "q75_us": 7.147520184516907,
+        "min_us": 7.105280160903931,
+        "max_us": 7.226240038871765
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 44,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1350864,
+        "output_tcm": 9576,
+        "total_tcm": 1360440,
+        "useful_macs": 1351368,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 5405472
+      },
+      "reuse": {
+        "input_tcm": 814104,
+        "output_tcm": 9576,
+        "total_tcm": 823680,
+        "useful_macs": 1351368,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 2919744
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b4_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 72,
+      "co": 72,
+      "h": 56,
+      "w": 56,
+      "kernel": 5,
+      "stride": 2,
+      "padding": 2,
+      "groups": 72,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 4 depthwise"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        4.259839951992035,
+        4.234879910945892,
+        4.21887993812561,
+        4.21887993812561,
+        4.239360094070435,
+        4.238080084323883,
+        4.23552006483078,
+        4.21887993812561,
+        4.232960045337677,
+        4.254080057144165,
+        4.239360094070435,
+        4.21887993812561,
+        4.239360094070435,
+        4.21887993812561,
+        4.238719940185547
+      ],
+      "reuse": [
+        3.333759903907776,
+        3.2921600341796875,
+        3.2767999172210693,
+        3.2767999172210693,
+        3.2972800731658936,
+        3.317759931087494,
+        3.272959887981415,
+        3.2767999172210693,
+        3.272320032119751,
+        3.2767999172210693,
+        3.256320059299469,
+        3.272959887981415,
+        3.2972800731658936,
+        3.2767999172210693,
+        3.2767999172210693
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 4.23552006483078,
+        "q25_us": 4.21887993812561,
+        "q75_us": 4.239360094070435,
+        "min_us": 4.21887993812561,
+        "max_us": 4.259839951992035
+      },
+      "reuse": {
+        "median_us": 3.2767999172210693,
+        "q25_us": 3.274879902601242,
+        "q75_us": 3.2947200536727905,
+        "min_us": 3.256320059299469,
+        "max_us": 3.333759903907776
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 46,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 48,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 1351116,
+        "output_tcm": 5796,
+        "total_tcm": 1356912,
+        "useful_macs": 1351368,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 5405472
+      },
+      "reuse": {
+        "input_tcm": 814356,
+        "output_tcm": 5796,
+        "total_tcm": 820152,
+        "useful_macs": 1351368,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 2919744
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b5_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 120,
+      "co": 120,
+      "h": 28,
+      "w": 28,
+      "kernel": 5,
+      "stride": 1,
+      "padding": 2,
+      "groups": 120,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 5 depthwise"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        10.547200441360474,
+        10.52672028541565,
+        10.485759973526001,
+        10.506240129470825,
+        10.51967978477478,
+        10.506240129470825,
+        10.52672028541565,
+        10.485759973526001,
+        10.485759973526001,
+        10.506240129470825,
+        10.499839782714844,
+        10.52672028541565,
+        10.506240129470825,
+        10.546560287475586,
+        10.87488055229187
+      ],
+      "reuse": [
+        6.533120274543762,
+        6.512640118598938,
+        6.512640118598938,
+        6.512640118598938,
+        6.509439945220947,
+        6.50879979133606,
+        6.4716798067092896,
+        6.50816023349762,
+        6.512640118598938,
+        6.492159962654114,
+        6.492159962654114,
+        6.512640118598938,
+        6.533120274543762,
+        6.533120274543762,
+        6.492159962654114
+      ]
+    },
+    "round_orders": [
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 10.506240129470825,
+        "q25_us": 10.503039956092834,
+        "q75_us": 10.52672028541565,
+        "min_us": 10.485759973526001,
+        "max_us": 10.87488055229187
+      },
+      "reuse": {
+        "median_us": 6.512640118598938,
+        "q25_us": 6.500160098075867,
+        "q75_us": 6.512640118598938,
+        "min_us": 6.4716798067092896,
+        "max_us": 6.533120274543762
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 425880,
+        "output_tcm": 19320,
+        "total_tcm": 445200,
+        "useful_macs": 2154720,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 8618880
+      },
+      "reuse": {
+        "input_tcm": 327240,
+        "output_tcm": 19320,
+        "total_tcm": 346560,
+        "useful_macs": 2154720,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 3344640
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b5_dw",
+      "family": "depthwise",
+      "n": 1,
+      "ci": 120,
+      "co": 120,
+      "h": 28,
+      "w": 28,
+      "kernel": 5,
+      "stride": 1,
+      "padding": 2,
+      "groups": 120,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 5 depthwise"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        5.651839971542358,
+        5.570560097694397,
+        5.570560097694397,
+        5.587199926376343,
+        5.591040253639221,
+        5.570560097694397,
+        5.570560097694397,
+        5.570560097694397,
+        5.570560097694397,
+        5.570560097694397,
+        5.587199926376343,
+        5.570560097694397,
+        5.570560097694397,
+        5.570560097694397,
+        5.591040253639221
+      ],
+      "reuse": [
+        3.5839998722076416,
+        3.5839998722076416,
+        3.5839998722076416,
+        3.583360016345978,
+        3.5814398527145386,
+        3.5839998722076416,
+        3.5839998722076416,
+        3.5980799794197083,
+        3.580160140991211,
+        3.5814398527145386,
+        3.5839998722076416,
+        3.5839998722076416,
+        3.583360016345978,
+        3.5839998722076416,
+        3.604480028152466
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 5.570560097694397,
+        "q25_us": 5.570560097694397,
+        "q75_us": 5.587199926376343,
+        "min_us": 5.570560097694397,
+        "max_us": 5.651839971542358
+      },
+      "reuse": {
+        "median_us": 3.5839998722076416,
+        "q25_us": 3.583360016345978,
+        "q75_us": 3.5839998722076416,
+        "min_us": 3.580160140991211,
+        "max_us": 3.604480028152466
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 54,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 344220,
+        "output_tcm": 13020,
+        "total_tcm": 357240,
+        "useful_macs": 2154720,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 8618880
+      },
+      "reuse": {
+        "input_tcm": 265260,
+        "output_tcm": 13020,
+        "total_tcm": 278280,
+        "useful_macs": 2154720,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 3344640
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b2_expand",
+      "family": "pointwise",
+      "n": 1,
+      "ci": 16,
+      "co": 64,
+      "h": 112,
+      "w": 112,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 2 expansion (conv only)"
+    },
+    "config": {
+      "id": "y4x8c4",
+      "by": 4,
+      "bx": 8,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        49.08671855926514,
+        44.092159271240234,
+        52.1830415725708,
+        48.98816108703613,
+        44.07296180725098,
+        44.106879234313965,
+        56.156158447265625,
+        49.19295787811279,
+        44.13440227508545,
+        44.08895969390869,
+        48.209919929504395,
+        48.98816108703613,
+        44.0934419631958,
+        54.04672145843506,
+        49.11104202270508
+      ],
+      "reuse": [
+        40.91904163360596,
+        40.857601165771484,
+        40.89407920837402,
+        40.91519832611084,
+        40.89856147766113,
+        40.87679862976074,
+        40.93952178955078,
+        40.93952178955078,
+        40.87808132171631,
+        40.89856147766113,
+        40.93952178955078,
+        40.89856147766113,
+        40.89856147766113,
+        40.89856147766113,
+        40.960001945495605
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 48.98816108703613,
+        "q25_us": 44.10016059875488,
+        "q75_us": 49.151999950408936,
+        "min_us": 44.07296180725098,
+        "max_us": 56.156158447265625
+      },
+      "reuse": {
+        "median_us": 40.89856147766113,
+        "q25_us": 40.89632034301758,
+        "q75_us": 40.92928171157837,
+        "min_us": 40.857601165771484,
+        "max_us": 40.960001945495605
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 9426816,
+        "output_tcm": 94080,
+        "total_tcm": 9520896,
+        "useful_macs": 12845056,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 12845056
+      },
+      "reuse": {
+        "input_tcm": 9426816,
+        "output_tcm": 94080,
+        "total_tcm": 9520896,
+        "useful_macs": 12845056,
+        "nominal_entries_per_operand_per_CTA": 128,
+        "source_input_requested_bytes": 12845056
+      }
+    }
+  },
+  {
+    "case": {
+      "id": "mv3_b2_expand",
+      "family": "pointwise",
+      "n": 1,
+      "ci": 16,
+      "co": 64,
+      "h": 112,
+      "w": 112,
+      "kernel": 1,
+      "stride": 1,
+      "padding": 0,
+      "groups": 1,
+      "source": "MobileNetV3-Large width=1 input=224, bottleneck 2 expansion (conv only)"
+    },
+    "config": {
+      "id": "y4x16c4",
+      "by": 4,
+      "bx": 16,
+      "bc": 4
+    },
+    "numerical": {
+      "canonical": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "reuse": {
+        "max_abs_error": 1.7881393432617188e-07,
+        "passed": true
+      },
+      "variants_bitwise_equal": true
+    },
+    "samples_us": {
+      "canonical": [
+        23.384320735931396,
+        23.367679119110107,
+        23.278720378875732,
+        23.347198963165283,
+        23.306241035461426,
+        23.2857608795166,
+        23.2857608795166,
+        23.2857608795166,
+        23.32672119140625,
+        23.306241035461426,
+        23.2857608795166,
+        23.2857608795166,
+        23.280000686645508,
+        23.281280994415283,
+        23.2857608795166
+      ],
+      "reuse": [
+        21.70815944671631,
+        21.770238876342773,
+        21.667840480804443,
+        21.667840480804443,
+        21.688320636749268,
+        21.707520484924316,
+        21.667840480804443,
+        21.667840480804443,
+        21.790719032287598,
+        21.708800792694092,
+        21.708800792694092,
+        21.683199405670166,
+        21.687679290771484,
+        21.66719913482666,
+        21.688320636749268
+      ]
+    },
+    "round_orders": [
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "canonical",
+        "reuse"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ],
+      [
+        "reuse",
+        "canonical"
+      ]
+    ],
+    "stats": {
+      "canonical": {
+        "median_us": 23.2857608795166,
+        "q25_us": 23.2857608795166,
+        "q75_us": 23.316481113433838,
+        "min_us": 23.278720378875732,
+        "max_us": 23.384320735931396
+      },
+      "reuse": {
+        "median_us": 21.688320636749268,
+        "q25_us": 21.667840480804443,
+        "q75_us": 21.7084801197052,
+        "min_us": 21.66719913482666,
+        "max_us": 21.790719032287598
+      }
+    },
+    "resources": {
+      "canonical": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      },
+      "reuse": {
+        "registers": 40,
+        "spills": 0,
+        "shared_bytes": 0
+      }
+    },
+    "tcm": {
+      "canonical": {
+        "input_tcm": 9229248,
+        "output_tcm": 47040,
+        "total_tcm": 9276288,
+        "useful_macs": 12845056,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 12845056
+      },
+      "reuse": {
+        "input_tcm": 9229248,
+        "output_tcm": 47040,
+        "total_tcm": 9276288,
+        "useful_macs": 12845056,
+        "nominal_entries_per_operand_per_CTA": 256,
+        "source_input_requested_bytes": 12845056
+      }
+    }
+  }
+]

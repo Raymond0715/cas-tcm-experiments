@@ -1,0 +1,12 @@
+{
+  "source_sha256": "59b89474e9262f8623b45932e0186fadc923ba998ad859a42fe220435bf23376",
+  "cases": 32,
+  "domain": "valid convolution, stride=1, dilation=1, no padding",
+  "S": "output spatial side",
+  "initial_state": "empty R=-1; no previous load L=-1; undefined predecessor contributes zero",
+  "unit_weights": true,
+  "input_output_separate": true,
+  "mac_counts_equal": true,
+  "matched_capacity": "equal nominal resident entries per operand; not equal measured hardware resources",
+  "postrun_validation": "Independent sorted-domain reference TCM added and passed; evaluator unchanged"
+}

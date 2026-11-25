@@ -1,0 +1,18 @@
+{
+  "metrics": [
+    "smsp__inst_executed.sum",
+    "smsp__sass_inst_executed_op_global_ld.sum",
+    "l1tex__t_requests_pipe_lsu_mem_global_op_ld.sum",
+    "l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum",
+    "l1tex__t_sectors_pipe_lsu_mem_global_op_ld_lookup_hit.sum",
+    "lts__t_sectors_srcunit_tex_op_read.sum",
+    "lts__t_sectors_srcunit_tex_op_read_lookup_hit.sum"
+  ],
+  "samples": 7,
+  "settle": 2,
+  "protocol": "20 eager warmups before every profiled launch; application replay; no cache flush; clocks unchanged; first settle samples retained as diagnostics; later samples summarized separately; not original CUDA Graph timing protocol",
+  "source_sha256": {
+    "kernels.py": "c4af48f3a58e94a6ac935361c817f24ab5d56b0740f4fbbd195a85f748f6fd98"
+  },
+  "ncu_version": "NVIDIA (R) Nsight Compute Command Line Profiler\nCopyright (c) 2018-2026 NVIDIA Corporation\nVersion 2026.4.0.0 (build 39012641) (public-release)\n"
+}

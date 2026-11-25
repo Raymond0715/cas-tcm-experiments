@@ -1,0 +1,8 @@
+{
+  "small_workloads": 5,
+  "schedule_checks": 10,
+  "exact_mac_coverage": true,
+  "numerical_convolution": true,
+  "state_transition_check": true,
+  "independent_sorted_trace_tcm": true
+}
